@@ -73,7 +73,8 @@ then
 
 else
     echo "Downloading dataset..."
-    wget https://web.inf.ufpr.br/vri/databases/BreaKHis_v1.tar.gz
+    wget http://www.inf.ufpr.br/vri/databases/BreaKHis_v1.tar.gz
+    
 
     # Check just in case if for some reason the file is not there
     if ! [ -f "./BreaKHis_v1.tar.gz"]
