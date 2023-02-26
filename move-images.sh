@@ -77,7 +77,7 @@ else
     
 
     # Check just in case if for some reason the file is not there
-    if ! [ -f "./BreaKHis_v1.tar.gz"]
+    if ! [ [ -f "./BreaKHis_v1.tar.gz"] ]
     then 
         echo "File not found, exiting..."
         exit 1
