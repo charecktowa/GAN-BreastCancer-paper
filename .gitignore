@@ -1,4 +1,8 @@
 env/
 
+original_images/
+
+__pycache__/
+
 .vscode
 
